@@ -26,13 +26,13 @@ A lightweight Facebook clone built with Django — featuring user authentication
 ## 📸 Preview
 
 ### 🔹 Authentication Page  
-![Authentication Page](screenshots/authentication_page.png)
+![Authentication Page](screenshot/authentication_page.png)
 
 ### 🔹 Home Page  
-![Home Page](screenshots/home_page.png)
+![Home Page](screenshot/home_page.png)
 
 ### 🔹 Profile Page  
-![Profile Page](screenshots/profile_page.png)
+![Profile Page](screenshot/profile_page.png)
 
 ---
 
@@ -53,7 +53,7 @@ A lightweight Facebook clone built with Django — featuring user authentication
 
 ## 🚀 Quick Start
 
-bash
+```bash
 # Clone the repository
 git clone https://github.com/rojalinworks/MyFaceclone
 
@@ -80,7 +80,7 @@ python manage.py createsuperuser
 
 # Start the development server
 python manage.py runserver
-`
+```
 
 Visit `http://127.0.0.1:8000/` in your browser to access the app.
 
@@ -88,7 +88,7 @@ Visit `http://127.0.0.1:8000/` in your browser to access the app.
 
 ## 📁 Project Structure
 
-
+```
 MyFaceclone/
 ├── MyFaceclone/             # Main project settings
 │   ├── asgi.py
@@ -111,7 +111,7 @@ MyFaceclone/
 │   └── fonts/
 ├── media/                   # Uploaded user avatars
 │   └── avatar.jpg
-├── screenshots/             # Screenshots for preview
+├── screenshot/             # Screenshots for preview
 │   ├── authentication_page.png
 │   ├── home_page.png
 │   └── profile_page.png
@@ -119,7 +119,7 @@ MyFaceclone/
 ├── manage.py
 └── README.md
 
-
+```
 ---
 
 ## 🤝 Contributing
